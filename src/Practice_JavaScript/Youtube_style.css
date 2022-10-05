@@ -1,0 +1,103 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 99%;
+}
+.logo{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 200px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.hamburger{
+    padding-left: 15px !important; 
+    /* margin-left: 10px; */
+}
+
+.search_box{
+    margin-left: 13%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 538px;
+    height: 41px;
+    padding: 2px;
+    border: 1px solid #d3d3d3;
+    padding-left: 10px;
+
+}
+
+.search_icon{
+    background-color: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    padding: 13px;
+    margin-left: -4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu_bar_right_icons{
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.menu_bar_right_icons:hover{
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(236, 13, 13);
+}
+
+.list_icons{
+    margin-right: 30px;
+}
+
+.side_nav_item{
+    border: none !important;
+    cursor: pointer;
+}
+
+.side_nav_item:hover{
+    border: none !important;
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.pills{
+    background-color: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pills_active{
+    background-color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.pills_container{
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title> Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../includes/jquery.min.js"></script>
+    <script src="../includes/form.js"></script>
+</head>
+
+<body>
+    <div class="form_container">
+        <h3> Sign up</h3>
+        <p> 1.Your Basic Info</p>
+        <form>
+            <div class="row">
+                <div class="field_container">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <div class="field_container">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="field_container">
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container_radio">
+                    <p>Age:</p>
+                </div>
+
+                <div class="container_radio">
+                    <input type="radio" id="under13" name="age" value="under 13">
+                    <label for="html"> Under 13</label>
+
+                    <input type="radio" id="13above" name="age" value="above 13">
+                    <label for="html">13 or Above</label>
+                </div>
+            </div>
+
+
+            <p> 2.Your Profile</p>
+
+            <div class="text_container">
+                <label for="Biography">Biography:</label><br>
+                <textarea id="biography" name="biogrpahy" rows="4" cols="50"> </textarea><br>
+            </div>
+
+            <div class="row">
+                <label for="role">Job Role:</label><br>
+                <select name="jobrole" id="jobrole"></select>
+            </div>
+
+            <!-- <div class="row">
+                <label for="Interest">Interest:</label>
+                <input type="checkbox" id="Dev" name="interest" value="developer">
+                <label for="Dev">Development</label>
+                <input type="checkbox" id="Design" name="interest" value="designer">
+                <label for="Design">Design</label>
+                <input type="checkbox" id="Business" name="interest" value="Businesss">
+                <label for="Business">Business</label>
+            </div> -->
+            <div class="row">
+                <button type="button" class="signup_button">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
